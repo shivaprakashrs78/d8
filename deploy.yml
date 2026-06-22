@@ -12,6 +12,6 @@
 
     - name: Copy the artifact to the deployment directory
       ansible.builtin.copy:
-        src: /var/lib/jenkins/workspace/HelloMaven-CI/target/d8-1.0-SNAPSHOT.jar
+        src: /mnt/c/Users/shiva/.jenkins/workspace/d88/target/d8-1.0-SNAPSHOT.jar
         dest: /home/shiva/deployment/d8.jar
         remote_src: yes
